@@ -1,0 +1,158 @@
+*{
+
+    padding: 0;
+    
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    
+    
+    
+    body{
+    
+    background-image: url('assests/img/img.2.jpg');
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    }
+    
+    
+    
+    
+    .wrapper{
+    
+    width: 800px;
+    
+    height: 100vh;
+    
+    margin: 0 auto;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    }
+    
+    
+    
+    
+    .card{
+    
+    width: 350px;
+    
+    height: 450px;
+    
+    border: 1px solid rgba(234, 234, 234, 0.744);
+    
+    background-color: rgba(235, 222, 222, 0.253);
+    
+    display: flex;
+    
+    backdrop-filter: blur(2px);
+    
+    padding: 25px;
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    label{
+    
+    color :rgb(5, 5, 5);
+    
+    font-size: 1.2rem;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+    
+    
+    input{
+    
+    padding: 8px;
+    
+    margin: 10px 0px;
+    
+    border: 2px solid rgb(14, 13, 13);
+    
+    border-radius: 5px;
+    
+    width: 100%;
+    
+    }
+    
+    
+    
+    
+    input[type='password']{
+    
+    /* color: rgb(184, 46, 22); */
+    
+    }
+    
+    
+    
+    
+    input[name='username']{
+    
+    color: rgb(21, 20, 22);
+    }
+    
+    
+    
+    
+    input:focus{
+
+    
+    outline: none;
+    
+    background-color: bisque;
+    
+    }
+    
+    
+    
+    
+    input::placeholder{
+    
+    color :rgba(221, 17, 34, 0.185);
+    
+    }
+    
+    
+    
+    
+    form{
+    
+    width: 100%;
+    
+    }
+    
+    button{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        color: rgb(11, 12, 12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        border: 2px solid black;
+        margin-top: 20px;
+        
+    
+    }
+    
